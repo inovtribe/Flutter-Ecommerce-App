@@ -1,0 +1,8 @@
+com.autofystore.autofystore_app
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable launch_background
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+style LaunchTheme

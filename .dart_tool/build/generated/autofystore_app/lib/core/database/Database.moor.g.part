@@ -1,0 +1,671 @@
+// **************************************************************************
+// MoorGenerator
+// **************************************************************************
+
+// ignore_for_file: unnecessary_brace_in_string_interps
+class Attributes extends DataClass implements Insertable<Attributes> {
+  final int id;
+  final String name;
+  final DateTime updated;
+  Attributes({@required this.id, this.name, @required this.updated});
+  factory Attributes.fromData(Map<String, dynamic> data, GeneratedDatabase db,
+      {String prefix}) {
+    final effectivePrefix = prefix ?? '';
+    final intType = db.typeSystem.forDartType<int>();
+    final stringType = db.typeSystem.forDartType<String>();
+    final dateTimeType = db.typeSystem.forDartType<DateTime>();
+    return Attributes(
+      id: intType.mapFromDatabaseResponse(data['${effectivePrefix}id']),
+      name: stringType.mapFromDatabaseResponse(data['${effectivePrefix}name']),
+      updated: dateTimeType
+          .mapFromDatabaseResponse(data['${effectivePrefix}updated']),
+    );
+  }
+  factory Attributes.fromJson(Map<String, dynamic> json,
+      {ValueSerializer serializer = const ValueSerializer.defaults()}) {
+    return Attributes(
+      id: serializer.fromJson<int>(json['id']),
+      name: serializer.fromJson<String>(json['name']),
+      updated: serializer.fromJson<DateTime>(json['updated']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson(
+      {ValueSerializer serializer = const ValueSerializer.defaults()}) {
+    return {
+      'id': serializer.toJson<int>(id),
+      'name': serializer.toJson<String>(name),
+      'updated': serializer.toJson<DateTime>(updated),
+    };
+  }
+
+  @override
+  T createCompanion<T extends UpdateCompanion<Attributes>>(bool nullToAbsent) {
+    return AttributesCompanion(
+      id: id == null && nullToAbsent ? const Value.absent() : Value(id),
+      name: name == null && nullToAbsent ? const Value.absent() : Value(name),
+      updated: updated == null && nullToAbsent
+          ? const Value.absent()
+          : Value(updated),
+    ) as T;
+  }
+
+  Attributes copyWith({int id, String name, DateTime updated}) => Attributes(
+        id: id ?? this.id,
+        name: name ?? this.name,
+        updated: updated ?? this.updated,
+      );
+  @override
+  String toString() {
+    return (StringBuffer('Attributes(')
+          ..write('id: $id, ')
+          ..write('name: $name, ')
+          ..write('updated: $updated')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode =>
+      $mrjf($mrjc(id.hashCode, $mrjc(name.hashCode, updated.hashCode)));
+  @override
+  bool operator ==(other) =>
+      identical(this, other) ||
+      (other is Attributes &&
+          other.id == id &&
+          other.name == name &&
+          other.updated == updated);
+}
+
+class AttributesCompanion extends UpdateCompanion<Attributes> {
+  final Value<int> id;
+  final Value<String> name;
+  final Value<DateTime> updated;
+  const AttributesCompanion({
+    this.id = const Value.absent(),
+    this.name = const Value.absent(),
+    this.updated = const Value.absent(),
+  });
+  AttributesCompanion copyWith(
+      {Value<int> id, Value<String> name, Value<DateTime> updated}) {
+    return AttributesCompanion(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      updated: updated ?? this.updated,
+    );
+  }
+}
+
+class $AttributesTable extends Attributes
+    with TableInfo<$AttributesTable, Attributes> {
+  final GeneratedDatabase _db;
+  final String _alias;
+  $AttributesTable(this._db, [this._alias]);
+  final VerificationMeta _idMeta = const VerificationMeta('id');
+  GeneratedIntColumn _id;
+  @override
+  GeneratedIntColumn get id => _id ??= _constructId();
+  GeneratedIntColumn _constructId() {
+    return GeneratedIntColumn(
+      'id',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _nameMeta = const VerificationMeta('name');
+  GeneratedTextColumn _name;
+  @override
+  GeneratedTextColumn get name => _name ??= _constructName();
+  GeneratedTextColumn _constructName() {
+    return GeneratedTextColumn(
+      'name',
+      $tableName,
+      true,
+    );
+  }
+
+  final VerificationMeta _updatedMeta = const VerificationMeta('updated');
+  GeneratedDateTimeColumn _updated;
+  @override
+  GeneratedDateTimeColumn get updated => _updated ??= _constructUpdated();
+  GeneratedDateTimeColumn _constructUpdated() {
+    return GeneratedDateTimeColumn(
+      'updated',
+      $tableName,
+      false,
+    );
+  }
+
+  @override
+  List<GeneratedColumn> get $columns => [id, name, updated];
+  @override
+  $AttributesTable get asDslTable => this;
+  @override
+  String get $tableName => _alias ?? 'attributes';
+  @override
+  final String actualTableName = 'attributes';
+  @override
+  VerificationContext validateIntegrity(AttributesCompanion d,
+      {bool isInserting = false}) {
+    final context = VerificationContext();
+    if (d.id.present) {
+      context.handle(_idMeta, id.isAcceptableValue(d.id.value, _idMeta));
+    } else if (id.isRequired && isInserting) {
+      context.missing(_idMeta);
+    }
+    if (d.name.present) {
+      context.handle(
+          _nameMeta, name.isAcceptableValue(d.name.value, _nameMeta));
+    } else if (name.isRequired && isInserting) {
+      context.missing(_nameMeta);
+    }
+    if (d.updated.present) {
+      context.handle(_updatedMeta,
+          updated.isAcceptableValue(d.updated.value, _updatedMeta));
+    } else if (updated.isRequired && isInserting) {
+      context.missing(_updatedMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  Attributes map(Map<String, dynamic> data, {String tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : null;
+    return Attributes.fromData(data, _db, prefix: effectivePrefix);
+  }
+
+  @override
+  Map<String, Variable> entityToSql(AttributesCompanion d) {
+    final map = <String, Variable>{};
+    if (d.id.present) {
+      map['id'] = Variable<int, IntType>(d.id.value);
+    }
+    if (d.name.present) {
+      map['name'] = Variable<String, StringType>(d.name.value);
+    }
+    if (d.updated.present) {
+      map['updated'] = Variable<DateTime, DateTimeType>(d.updated.value);
+    }
+    return map;
+  }
+
+  @override
+  $AttributesTable createAlias(String alias) {
+    return $AttributesTable(_db, alias);
+  }
+}
+
+class Products extends DataClass implements Insertable<Products> {
+  final int id;
+  final int attributeId;
+  final String name;
+  final int regularPrice;
+  final int salePrice;
+  final String stockStatus;
+  final String description;
+  final DateTime updated;
+  final String images;
+  Products(
+      {@required this.id,
+      @required this.attributeId,
+      @required this.name,
+      @required this.regularPrice,
+      @required this.salePrice,
+      @required this.stockStatus,
+      @required this.description,
+      @required this.updated,
+      @required this.images});
+  factory Products.fromData(Map<String, dynamic> data, GeneratedDatabase db,
+      {String prefix}) {
+    final effectivePrefix = prefix ?? '';
+    final intType = db.typeSystem.forDartType<int>();
+    final stringType = db.typeSystem.forDartType<String>();
+    final dateTimeType = db.typeSystem.forDartType<DateTime>();
+    return Products(
+      id: intType.mapFromDatabaseResponse(data['${effectivePrefix}id']),
+      attributeId: intType
+          .mapFromDatabaseResponse(data['${effectivePrefix}attribute_id']),
+      name: stringType.mapFromDatabaseResponse(data['${effectivePrefix}name']),
+      regularPrice: intType
+          .mapFromDatabaseResponse(data['${effectivePrefix}regular_price']),
+      salePrice:
+          intType.mapFromDatabaseResponse(data['${effectivePrefix}sale_price']),
+      stockStatus: stringType
+          .mapFromDatabaseResponse(data['${effectivePrefix}stock_status']),
+      description: stringType
+          .mapFromDatabaseResponse(data['${effectivePrefix}description']),
+      updated: dateTimeType
+          .mapFromDatabaseResponse(data['${effectivePrefix}updated']),
+      images:
+          stringType.mapFromDatabaseResponse(data['${effectivePrefix}images']),
+    );
+  }
+  factory Products.fromJson(Map<String, dynamic> json,
+      {ValueSerializer serializer = const ValueSerializer.defaults()}) {
+    return Products(
+      id: serializer.fromJson<int>(json['id']),
+      attributeId: serializer.fromJson<int>(json['attributeId']),
+      name: serializer.fromJson<String>(json['name']),
+      regularPrice: serializer.fromJson<int>(json['regularPrice']),
+      salePrice: serializer.fromJson<int>(json['salePrice']),
+      stockStatus: serializer.fromJson<String>(json['stockStatus']),
+      description: serializer.fromJson<String>(json['description']),
+      updated: serializer.fromJson<DateTime>(json['updated']),
+      images: serializer.fromJson<String>(json['images']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson(
+      {ValueSerializer serializer = const ValueSerializer.defaults()}) {
+    return {
+      'id': serializer.toJson<int>(id),
+      'attributeId': serializer.toJson<int>(attributeId),
+      'name': serializer.toJson<String>(name),
+      'regularPrice': serializer.toJson<int>(regularPrice),
+      'salePrice': serializer.toJson<int>(salePrice),
+      'stockStatus': serializer.toJson<String>(stockStatus),
+      'description': serializer.toJson<String>(description),
+      'updated': serializer.toJson<DateTime>(updated),
+      'images': serializer.toJson<String>(images),
+    };
+  }
+
+  @override
+  T createCompanion<T extends UpdateCompanion<Products>>(bool nullToAbsent) {
+    return ProductsCompanion(
+      id: id == null && nullToAbsent ? const Value.absent() : Value(id),
+      attributeId: attributeId == null && nullToAbsent
+          ? const Value.absent()
+          : Value(attributeId),
+      name: name == null && nullToAbsent ? const Value.absent() : Value(name),
+      regularPrice: regularPrice == null && nullToAbsent
+          ? const Value.absent()
+          : Value(regularPrice),
+      salePrice: salePrice == null && nullToAbsent
+          ? const Value.absent()
+          : Value(salePrice),
+      stockStatus: stockStatus == null && nullToAbsent
+          ? const Value.absent()
+          : Value(stockStatus),
+      description: description == null && nullToAbsent
+          ? const Value.absent()
+          : Value(description),
+      updated: updated == null && nullToAbsent
+          ? const Value.absent()
+          : Value(updated),
+      images:
+          images == null && nullToAbsent ? const Value.absent() : Value(images),
+    ) as T;
+  }
+
+  Products copyWith(
+          {int id,
+          int attributeId,
+          String name,
+          int regularPrice,
+          int salePrice,
+          String stockStatus,
+          String description,
+          DateTime updated,
+          String images}) =>
+      Products(
+        id: id ?? this.id,
+        attributeId: attributeId ?? this.attributeId,
+        name: name ?? this.name,
+        regularPrice: regularPrice ?? this.regularPrice,
+        salePrice: salePrice ?? this.salePrice,
+        stockStatus: stockStatus ?? this.stockStatus,
+        description: description ?? this.description,
+        updated: updated ?? this.updated,
+        images: images ?? this.images,
+      );
+  @override
+  String toString() {
+    return (StringBuffer('Products(')
+          ..write('id: $id, ')
+          ..write('attributeId: $attributeId, ')
+          ..write('name: $name, ')
+          ..write('regularPrice: $regularPrice, ')
+          ..write('salePrice: $salePrice, ')
+          ..write('stockStatus: $stockStatus, ')
+          ..write('description: $description, ')
+          ..write('updated: $updated, ')
+          ..write('images: $images')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => $mrjf($mrjc(
+      id.hashCode,
+      $mrjc(
+          attributeId.hashCode,
+          $mrjc(
+              name.hashCode,
+              $mrjc(
+                  regularPrice.hashCode,
+                  $mrjc(
+                      salePrice.hashCode,
+                      $mrjc(
+                          stockStatus.hashCode,
+                          $mrjc(description.hashCode,
+                              $mrjc(updated.hashCode, images.hashCode)))))))));
+  @override
+  bool operator ==(other) =>
+      identical(this, other) ||
+      (other is Products &&
+          other.id == id &&
+          other.attributeId == attributeId &&
+          other.name == name &&
+          other.regularPrice == regularPrice &&
+          other.salePrice == salePrice &&
+          other.stockStatus == stockStatus &&
+          other.description == description &&
+          other.updated == updated &&
+          other.images == images);
+}
+
+class ProductsCompanion extends UpdateCompanion<Products> {
+  final Value<int> id;
+  final Value<int> attributeId;
+  final Value<String> name;
+  final Value<int> regularPrice;
+  final Value<int> salePrice;
+  final Value<String> stockStatus;
+  final Value<String> description;
+  final Value<DateTime> updated;
+  final Value<String> images;
+  const ProductsCompanion({
+    this.id = const Value.absent(),
+    this.attributeId = const Value.absent(),
+    this.name = const Value.absent(),
+    this.regularPrice = const Value.absent(),
+    this.salePrice = const Value.absent(),
+    this.stockStatus = const Value.absent(),
+    this.description = const Value.absent(),
+    this.updated = const Value.absent(),
+    this.images = const Value.absent(),
+  });
+  ProductsCompanion copyWith(
+      {Value<int> id,
+      Value<int> attributeId,
+      Value<String> name,
+      Value<int> regularPrice,
+      Value<int> salePrice,
+      Value<String> stockStatus,
+      Value<String> description,
+      Value<DateTime> updated,
+      Value<String> images}) {
+    return ProductsCompanion(
+      id: id ?? this.id,
+      attributeId: attributeId ?? this.attributeId,
+      name: name ?? this.name,
+      regularPrice: regularPrice ?? this.regularPrice,
+      salePrice: salePrice ?? this.salePrice,
+      stockStatus: stockStatus ?? this.stockStatus,
+      description: description ?? this.description,
+      updated: updated ?? this.updated,
+      images: images ?? this.images,
+    );
+  }
+}
+
+class $ProductsTable extends Products with TableInfo<$ProductsTable, Products> {
+  final GeneratedDatabase _db;
+  final String _alias;
+  $ProductsTable(this._db, [this._alias]);
+  final VerificationMeta _idMeta = const VerificationMeta('id');
+  GeneratedIntColumn _id;
+  @override
+  GeneratedIntColumn get id => _id ??= _constructId();
+  GeneratedIntColumn _constructId() {
+    return GeneratedIntColumn(
+      'id',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _attributeIdMeta =
+      const VerificationMeta('attributeId');
+  GeneratedIntColumn _attributeId;
+  @override
+  GeneratedIntColumn get attributeId =>
+      _attributeId ??= _constructAttributeId();
+  GeneratedIntColumn _constructAttributeId() {
+    return GeneratedIntColumn(
+      'attribute_id',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _nameMeta = const VerificationMeta('name');
+  GeneratedTextColumn _name;
+  @override
+  GeneratedTextColumn get name => _name ??= _constructName();
+  GeneratedTextColumn _constructName() {
+    return GeneratedTextColumn(
+      'name',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _regularPriceMeta =
+      const VerificationMeta('regularPrice');
+  GeneratedIntColumn _regularPrice;
+  @override
+  GeneratedIntColumn get regularPrice =>
+      _regularPrice ??= _constructRegularPrice();
+  GeneratedIntColumn _constructRegularPrice() {
+    return GeneratedIntColumn(
+      'regular_price',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _salePriceMeta = const VerificationMeta('salePrice');
+  GeneratedIntColumn _salePrice;
+  @override
+  GeneratedIntColumn get salePrice => _salePrice ??= _constructSalePrice();
+  GeneratedIntColumn _constructSalePrice() {
+    return GeneratedIntColumn(
+      'sale_price',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _stockStatusMeta =
+      const VerificationMeta('stockStatus');
+  GeneratedTextColumn _stockStatus;
+  @override
+  GeneratedTextColumn get stockStatus =>
+      _stockStatus ??= _constructStockStatus();
+  GeneratedTextColumn _constructStockStatus() {
+    return GeneratedTextColumn(
+      'stock_status',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _descriptionMeta =
+      const VerificationMeta('description');
+  GeneratedTextColumn _description;
+  @override
+  GeneratedTextColumn get description =>
+      _description ??= _constructDescription();
+  GeneratedTextColumn _constructDescription() {
+    return GeneratedTextColumn(
+      'description',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _updatedMeta = const VerificationMeta('updated');
+  GeneratedDateTimeColumn _updated;
+  @override
+  GeneratedDateTimeColumn get updated => _updated ??= _constructUpdated();
+  GeneratedDateTimeColumn _constructUpdated() {
+    return GeneratedDateTimeColumn(
+      'updated',
+      $tableName,
+      false,
+    );
+  }
+
+  final VerificationMeta _imagesMeta = const VerificationMeta('images');
+  GeneratedTextColumn _images;
+  @override
+  GeneratedTextColumn get images => _images ??= _constructImages();
+  GeneratedTextColumn _constructImages() {
+    return GeneratedTextColumn(
+      'images',
+      $tableName,
+      false,
+    );
+  }
+
+  @override
+  List<GeneratedColumn> get $columns => [
+        id,
+        attributeId,
+        name,
+        regularPrice,
+        salePrice,
+        stockStatus,
+        description,
+        updated,
+        images
+      ];
+  @override
+  $ProductsTable get asDslTable => this;
+  @override
+  String get $tableName => _alias ?? 'products';
+  @override
+  final String actualTableName = 'products';
+  @override
+  VerificationContext validateIntegrity(ProductsCompanion d,
+      {bool isInserting = false}) {
+    final context = VerificationContext();
+    if (d.id.present) {
+      context.handle(_idMeta, id.isAcceptableValue(d.id.value, _idMeta));
+    } else if (id.isRequired && isInserting) {
+      context.missing(_idMeta);
+    }
+    if (d.attributeId.present) {
+      context.handle(_attributeIdMeta,
+          attributeId.isAcceptableValue(d.attributeId.value, _attributeIdMeta));
+    } else if (attributeId.isRequired && isInserting) {
+      context.missing(_attributeIdMeta);
+    }
+    if (d.name.present) {
+      context.handle(
+          _nameMeta, name.isAcceptableValue(d.name.value, _nameMeta));
+    } else if (name.isRequired && isInserting) {
+      context.missing(_nameMeta);
+    }
+    if (d.regularPrice.present) {
+      context.handle(
+          _regularPriceMeta,
+          regularPrice.isAcceptableValue(
+              d.regularPrice.value, _regularPriceMeta));
+    } else if (regularPrice.isRequired && isInserting) {
+      context.missing(_regularPriceMeta);
+    }
+    if (d.salePrice.present) {
+      context.handle(_salePriceMeta,
+          salePrice.isAcceptableValue(d.salePrice.value, _salePriceMeta));
+    } else if (salePrice.isRequired && isInserting) {
+      context.missing(_salePriceMeta);
+    }
+    if (d.stockStatus.present) {
+      context.handle(_stockStatusMeta,
+          stockStatus.isAcceptableValue(d.stockStatus.value, _stockStatusMeta));
+    } else if (stockStatus.isRequired && isInserting) {
+      context.missing(_stockStatusMeta);
+    }
+    if (d.description.present) {
+      context.handle(_descriptionMeta,
+          description.isAcceptableValue(d.description.value, _descriptionMeta));
+    } else if (description.isRequired && isInserting) {
+      context.missing(_descriptionMeta);
+    }
+    if (d.updated.present) {
+      context.handle(_updatedMeta,
+          updated.isAcceptableValue(d.updated.value, _updatedMeta));
+    } else if (updated.isRequired && isInserting) {
+      context.missing(_updatedMeta);
+    }
+    if (d.images.present) {
+      context.handle(
+          _imagesMeta, images.isAcceptableValue(d.images.value, _imagesMeta));
+    } else if (images.isRequired && isInserting) {
+      context.missing(_imagesMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  Products map(Map<String, dynamic> data, {String tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : null;
+    return Products.fromData(data, _db, prefix: effectivePrefix);
+  }
+
+  @override
+  Map<String, Variable> entityToSql(ProductsCompanion d) {
+    final map = <String, Variable>{};
+    if (d.id.present) {
+      map['id'] = Variable<int, IntType>(d.id.value);
+    }
+    if (d.attributeId.present) {
+      map['attribute_id'] = Variable<int, IntType>(d.attributeId.value);
+    }
+    if (d.name.present) {
+      map['name'] = Variable<String, StringType>(d.name.value);
+    }
+    if (d.regularPrice.present) {
+      map['regular_price'] = Variable<int, IntType>(d.regularPrice.value);
+    }
+    if (d.salePrice.present) {
+      map['sale_price'] = Variable<int, IntType>(d.salePrice.value);
+    }
+    if (d.stockStatus.present) {
+      map['stock_status'] = Variable<String, StringType>(d.stockStatus.value);
+    }
+    if (d.description.present) {
+      map['description'] = Variable<String, StringType>(d.description.value);
+    }
+    if (d.updated.present) {
+      map['updated'] = Variable<DateTime, DateTimeType>(d.updated.value);
+    }
+    if (d.images.present) {
+      map['images'] = Variable<String, StringType>(d.images.value);
+    }
+    return map;
+  }
+
+  @override
+  $ProductsTable createAlias(String alias) {
+    return $ProductsTable(_db, alias);
+  }
+}
+
+abstract class _$Database extends GeneratedDatabase {
+  _$Database(QueryExecutor e) : super(const SqlTypeSystem.withDefaults(), e);
+  $AttributesTable _attributes;
+  $AttributesTable get attributes => _attributes ??= $AttributesTable(this);
+  $ProductsTable _products;
+  $ProductsTable get products => _products ??= $ProductsTable(this);
+  @override
+  List<TableInfo> get allTables => [attributes, products];
+}
