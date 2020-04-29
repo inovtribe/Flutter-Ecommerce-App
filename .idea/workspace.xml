@@ -15,133 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf8464d-ca23-4c1b-ba89-348cd99f1ff4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/bin/flutter_launcher_icons/main.dart.snapshot.dart2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/bin/sdk-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autofystore_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/autofystore_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/autofystore/autofystore_app/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/autofystore/autofystore_app/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/tekartik/sqflite/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/tekartik/sqflite/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/io/flutter/plugins/pathprovider/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/io/flutter/plugins/pathprovider/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/libs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/libs.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/CNAfO7BX4TA7dewxuTJAEAX9bkM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/owVb_Xr0up5SbNaXPUNQy38R8fw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/owVb_Xr0up5SbNaXPUNQy38R8fw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/CNAfO7BX4TA7dewxuTJAEAX9bkM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/owVb_Xr0up5SbNaXPUNQy38R8fw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/owVb_Xr0up5SbNaXPUNQy38R8fw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/4mNpb1esFkCefPl55ZcdLWIWMrU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/4mNpb1esFkCefPl55ZcdLWIWMrU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R$mipmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/autofystore/autofystore_app/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/FontManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/FontManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/com/autofystore/autofystore_app/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/com/autofystore/autofystore_app/MainActivity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/com/autofystore/autofystore_app/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/com/autofystore/autofystore_app/R$mipmap.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/com/autofystore/autofystore_app/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/com/autofystore/autofystore_app/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/com/tekartik/sqflite/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/io/flutter/plugins/GeneratedPluginRegistrant.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16/io/flutter/plugins/pathprovider/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libflutter.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libflutter.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86_64/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86_64/libflutter.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/pathprovider/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/pathprovider/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/PathProviderPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/PathProviderPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/outputs/aar/path_provider-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/outputs/aar/path_provider-debug.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/tekartik/sqflite/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/tekartik/sqflite/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Database$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Database$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqlCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqlCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sqflite/outputs/aar/sqflite-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/build/sqflite/outputs/aar/sqflite-debug.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/SearchPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/SearchPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/HorizontaltemsSlider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/HorizontaltemsSlider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/PaginatedGrid.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/PaginatedGrid.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -183,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -244,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/dto/Product.dart" />
         <option value="$PROJECT_DIR$/lib/services/ProductsService.dart" />
         <option value="$PROJECT_DIR$/lib/services/WooCommerceServiceImpl.dart" />
         <option value="$PROJECT_DIR$/lib/core/enums/viewstate.dart" />
@@ -295,6 +177,7 @@
         <option value="$PROJECT_DIR$/lib/ui/widgets/HorizontaltemsSlider.dart" />
         <option value="$PROJECT_DIR$/lib/ui/widgets/FocussedProductsGrid.dart" />
         <option value="$PROJECT_DIR$/lib/ui/widgets/PaginatedGrid.dart" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -504,13 +387,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/basic.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4466" column="8" selection-start-line="4466" selection-start-column="8" selection-end-line="4466" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.1.6+4/lib/src/collection_utils.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -919,6 +795,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
