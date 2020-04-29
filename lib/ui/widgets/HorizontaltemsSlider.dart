@@ -41,7 +41,9 @@ class HorizontalItemsSlider extends WidgetParser {
                           new Container(
                             child: new ClipRRect(
                               child: new CachedNetworkImage(
-                                  imageUrl: item.imageSrc),
+                                  imageUrl: item.imageSrc,
+                                placeholder: (context, url) => CircularProgressIndicator(),
+                                errorWidget: (context, url, error) => Icon(Icons.error),),
                               borderRadius: BorderRadius.circular(10),
                             ),
                             height: itemHeight,

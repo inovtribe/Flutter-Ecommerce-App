@@ -176,6 +176,8 @@ class SearchPageState extends State<SearchPage>{
           AspectRatio(
             child: CachedNetworkImage(
               imageUrl: product.images[0],
+              placeholder: (context, url) => CircularProgressIndicator(),
+              errorWidget: (context, url, error) => Icon(Icons.error),
             ),
             aspectRatio: 1,
           ),

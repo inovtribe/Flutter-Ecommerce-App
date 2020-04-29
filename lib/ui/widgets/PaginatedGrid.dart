@@ -132,7 +132,10 @@ class PaginatedGridState extends State<PaginatedGrid> {
           Expanded(
             child: AspectRatio(
               aspectRatio: 1,
-              child: CachedNetworkImage(imageUrl: product.images[0],),
+              child: CachedNetworkImage(
+                imageUrl:product.images[0],
+        placeholder: (context, url) => CircularProgressIndicator(),
+        errorWidget: (context, url, error) => Icon(Icons.error),),
             ),
             flex: 2,
           ),

@@ -17,7 +17,7 @@ environment:
   sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
-  cached_network_image : any
+  cached_network_image : ^2.1.0+1
   flutter_launcher_icons: ^0.7.2
   font_awesome_flutter: ^8.2.5
   eva_icons_flutter: ^2.0.0

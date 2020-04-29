@@ -7,6 +7,28 @@ INJECTED from E:\FlutterProjects\autofystore_app\android\app\src\main\AndroidMan
 MERGED from E:\FlutterProjects\autofystore_app\android\app\src\main\AndroidManifest.xml:1:1-33:12
 MERGED from [:sqflite] E:\FlutterProjects\autofystore_app\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] E:\FlutterProjects\autofystore_app\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-rc01.aar\3dfbb6a16f5836e5cd9544df508aae62\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-rc01.aar\3e22585e1d02b3699d25f3b887aba927\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-rc01.aar\86ab4e298ba00000c5d25c21eb5f96a0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-rc01.aar\066d5019c1b43a4382a3ab8304a80856\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-rc01.aar\8e614fc22c69e952197dc871f719fb61\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-rc01.aar\0a1108379c9ba6b0e5c54146351be903\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-rc01.aar\085c503f2dedce806f66a6fd5d51ec27\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-rc01.aar\927424496640c64bd352d8436e005099\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-rc01.aar\49b6221aa574f2bfc4114ce38d05d6c5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-rc01.aar\faa7c3b1af528d7af7f32fe9812c789c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-rc01.aar\a2a31ace955335bd7729023df0742ace\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\660ee1cb84b5b971dcd208db3a2e2b47\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-rc01.aar\9cbc66750151de75fdc29028e635422b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-rc01.aar\a18e54c68c96dbbd5798506a845b538a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-rc01.aar\49d4c339ba4f7c954ef4c7849b9b5f7b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\f67b0af7a69d6e6c9496708f7897b82d\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-rc01.aar\dec90546ecee59e380cd2014f2cdef9c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-rc01.aar\ab1e383dcbd15cf9d5018ca5ab0e9e75\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-rc01.aar\2f62c7c6b9aab20b3b9baaf22e922a3b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-rc01.aar\7aff5699fa204376e8d38a65fb817f97\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\print-1.0.0-rc01.aar\ff87784429d1329891c15b17649a22eb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0-rc01.aar\959c2026a96611a2924acc91ad70b8f0\AndroidManifest.xml:17:1-22:12
 INJECTED from E:\FlutterProjects\autofystore_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\FlutterProjects\autofystore_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\FlutterProjects\autofystore_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -26,6 +48,12 @@ INJECTED from E:\FlutterProjects\autofystore_app\android\app\src\debug\AndroidMa
 		ADDED from E:\FlutterProjects\autofystore_app\android\app\src\main\AndroidManifest.xml:1:11-69
 application
 ADDED from E:\FlutterProjects\autofystore_app\android\app\src\main\AndroidManifest.xml:9:5-32:19
+MERGED from [androidx.core:core:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\660ee1cb84b5b971dcd208db3a2e2b47\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\660ee1cb84b5b971dcd208db3a2e2b47\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\f67b0af7a69d6e6c9496708f7897b82d\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\f67b0af7a69d6e6c9496708f7897b82d\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\660ee1cb84b5b971dcd208db3a2e2b47\AndroidManifest.xml:22:18-86
 	android:label
 		ADDED from E:\FlutterProjects\autofystore_app\android\app\src\main\AndroidManifest.xml:11:9-31
 	android:icon
@@ -70,6 +98,50 @@ MERGED from [:sqflite] E:\FlutterProjects\autofystore_app\build\sqflite\intermed
 MERGED from [:sqflite] E:\FlutterProjects\autofystore_app\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] E:\FlutterProjects\autofystore_app\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] E:\FlutterProjects\autofystore_app\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-rc01.aar\3dfbb6a16f5836e5cd9544df508aae62\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-rc01.aar\3dfbb6a16f5836e5cd9544df508aae62\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-rc01.aar\3e22585e1d02b3699d25f3b887aba927\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-rc01.aar\3e22585e1d02b3699d25f3b887aba927\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-rc01.aar\86ab4e298ba00000c5d25c21eb5f96a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-rc01.aar\86ab4e298ba00000c5d25c21eb5f96a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-rc01.aar\066d5019c1b43a4382a3ab8304a80856\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-rc01.aar\066d5019c1b43a4382a3ab8304a80856\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-rc01.aar\8e614fc22c69e952197dc871f719fb61\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-rc01.aar\8e614fc22c69e952197dc871f719fb61\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-rc01.aar\0a1108379c9ba6b0e5c54146351be903\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-rc01.aar\0a1108379c9ba6b0e5c54146351be903\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-rc01.aar\085c503f2dedce806f66a6fd5d51ec27\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-rc01.aar\085c503f2dedce806f66a6fd5d51ec27\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-rc01.aar\927424496640c64bd352d8436e005099\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-rc01.aar\927424496640c64bd352d8436e005099\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-rc01.aar\49b6221aa574f2bfc4114ce38d05d6c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-rc01.aar\49b6221aa574f2bfc4114ce38d05d6c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-rc01.aar\faa7c3b1af528d7af7f32fe9812c789c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-rc01.aar\faa7c3b1af528d7af7f32fe9812c789c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-rc01.aar\a2a31ace955335bd7729023df0742ace\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-rc01.aar\a2a31ace955335bd7729023df0742ace\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\660ee1cb84b5b971dcd208db3a2e2b47\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\660ee1cb84b5b971dcd208db3a2e2b47\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-rc01.aar\9cbc66750151de75fdc29028e635422b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-rc01.aar\9cbc66750151de75fdc29028e635422b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-rc01.aar\a18e54c68c96dbbd5798506a845b538a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-rc01.aar\a18e54c68c96dbbd5798506a845b538a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-rc01.aar\49d4c339ba4f7c954ef4c7849b9b5f7b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-rc01.aar\49d4c339ba4f7c954ef4c7849b9b5f7b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\f67b0af7a69d6e6c9496708f7897b82d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\f67b0af7a69d6e6c9496708f7897b82d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-rc01.aar\dec90546ecee59e380cd2014f2cdef9c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-rc01.aar\dec90546ecee59e380cd2014f2cdef9c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-rc01.aar\ab1e383dcbd15cf9d5018ca5ab0e9e75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-rc01.aar\ab1e383dcbd15cf9d5018ca5ab0e9e75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-rc01.aar\2f62c7c6b9aab20b3b9baaf22e922a3b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-rc01.aar\2f62c7c6b9aab20b3b9baaf22e922a3b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-rc01.aar\7aff5699fa204376e8d38a65fb817f97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-rc01.aar\7aff5699fa204376e8d38a65fb817f97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\print-1.0.0-rc01.aar\ff87784429d1329891c15b17649a22eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\print-1.0.0-rc01.aar\ff87784429d1329891c15b17649a22eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0-rc01.aar\959c2026a96611a2924acc91ad70b8f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] C:\Users\sps14\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0-rc01.aar\959c2026a96611a2924acc91ad70b8f0\AndroidManifest.xml:20:5-44
 INJECTED from E:\FlutterProjects\autofystore_app\android\app\src\debug\AndroidManifest.xml
 INJECTED from E:\FlutterProjects\autofystore_app\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
